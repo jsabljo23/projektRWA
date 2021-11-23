@@ -1,0 +1,173 @@
+.backgrnd{
+
+    background-image: url("../images/cesta.jpg");
+    background-size: cover;  
+    
+}
+
+.linkD{
+    text-decoration: none;
+}
+
+.topMar{
+
+    padding: 0%;
+}
+
+.topInfo{
+
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: #023e8a;
+    color: #f7f7f7;
+}
+
+.infoTable{
+
+    margin:auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #023e8a;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.leftInfo{
+
+    height: 300px;
+    background-color: #f7f7f7;
+    border-top-left-radius: 8px;
+    text-align: center;
+    
+}
+
+.searchCar{
+
+    height: 150px;
+    background-image: url("../images/car.jpg");
+    background-size: cover;
+    
+}
+
+.searchCar:hover{
+
+    transition: .5s ease;
+    opacity: 75%;
+}
+
+.searchCar:hover .hoverText{
+
+    visibility: visible;
+    transition: .5s ease;
+    background-color: #f7f7f7;
+}
+
+
+
+.hoverText{
+    visibility: hidden;
+    color: #023e8a;
+    font-size: 25px;
+}
+
+
+
+.rightInfo{
+
+    height: 300px;
+    background-color: #f7f7f7;
+    border-top-right-radius: 8px;
+    text-align: center;
+    
+}
+
+.searchPart{
+
+    height: 150px;
+    background-image: url("../images/parts.jpg");
+    background-size: cover;
+}
+
+.searchPart:hover{
+
+    transition: .5s ease;
+    opacity: 75%;
+}
+
+.searchPart:hover .hoverText {
+
+    visibility: visible;
+    transition: .5s ease;
+    background-color: #f7f7f7;
+
+}
+
+.botInfo{
+
+    height: 100px;
+    background-color: #023e8a;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #f7f7f7;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    
+}
+
+.infoTittle{
+
+    margin-top: 3%;
+    text-align: center;
+    color: #023e8a;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.textInfo{
+
+    color: #023e8a;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.leftAbout{
+
+    height: 300px;
+    background-color: #023e8a;
+}
+
+.rightAbout{
+
+    height: 300px;
+    background-color: #f7f7f7;
+}
+
+.botDiv{
+    
+    margin-top: 150px;
+    padding: 0;
+}
+
+.leftBot{
+
+    height: 300px;
+    background-color: #023e8a;
+    float: left;
+    color: #f7f7f7;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 28px;
+
+}
+
+.rightBot{
+
+    height: 300px;
+    background-color: #f7f7f7;
+    float: right;
+    color: #023e8a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 28px;
+
+}
